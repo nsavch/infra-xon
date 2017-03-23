@@ -1,0 +1,6 @@
+[Unit]
+Discription=All Xonotic Servers
+Requires= # xonotic@dm.service xonotic@duel.service etc
+
+[Install]
+WantedBy=multi-user.target
