@@ -5,7 +5,6 @@ PartOf=xonotic-all.target
 
 [Service]
 ExecStart=/home/xonotic/infra/scripts/start_server.sh %i
-WorkingDirectory=/home/xonotic/infra/scripts
 User=xonotic
 Group=xonotic
 
