@@ -3,4 +3,4 @@
 base_dir=`dirname $0`
 
 cd $base_dir/../servers/$1
-exec ./xonotic-linux64-dedicated -sessionid $1
+exec ./xonotic-linux64-dedicated +set serverconfig server.$1.cfg -sessionid $1
