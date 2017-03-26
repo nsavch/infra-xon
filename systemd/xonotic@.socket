@@ -1,9 +1,0 @@
-[Unit]
-Description=Socket for xonotic server %i
-
-[Socket]
-ListenFIFO=/var/run/xonotic-%i.fifo
-Accept=false
-
-[Install]
-WantedBy=sockets.target
