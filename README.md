@@ -1,6 +1,6 @@
 # infra-xon
 
-Scripts/config I use to host few dedicated xonotic servers.
+Scripts/configs I use to manage dedicated xonotic servers.
 
 ## Goals
 
