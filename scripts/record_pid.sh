@@ -5,5 +5,5 @@ pidfile=$1
 shift
 echo $@
 
-echo $$ > $pidfile
+echo $pid > $pidfile
 exec $@
