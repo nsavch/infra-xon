@@ -21,9 +21,9 @@ to be written
 # systemctl start xonotic@servername
 # systemctl stop xonotic@servername
 # systemctl resatrt xonotic@servername
+# systemctl reload xonotic@servername   # (sends rescan_pending 1)
 ```
 
-TODO: add reload command
 
 ### Start/stop/restart all xonotic servers
 
@@ -31,6 +31,7 @@ TODO: add reload command
 # systemctl start xonotic-all
 # systemctl stop xonotic-all
 # systemctl restart xonotic-all
+# systemctl reload xonotic-all
 ```
 
 ### View console log of a server

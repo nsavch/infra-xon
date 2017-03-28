@@ -6,6 +6,7 @@ PartOf=xonotic-all.target
 [Service]
 ExecStartPre=/home/xonotic/infra/scripts/symlink_dl.sh
 ExecStart=/home/xonotic/infra/scripts/start_server.sh %i
+ExecReload=/home/xonotic/infra/scripts/reload_server.sh %i
 User=xonotic
 Group=xonotic
 
