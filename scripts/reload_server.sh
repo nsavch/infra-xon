@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -x 
-
 base_dir=`dirname $0`
 tmpdir=/var/run/xonotic
 server_dir=$base_dir/../servers/$1
